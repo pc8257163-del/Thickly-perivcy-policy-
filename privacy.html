@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tickly Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Tickly to-do list app for Android. Your tasks stay on your phone. Tickly shows ads from Google AdMob and Unity Ads.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f2ff;
+    --ink: #111111;
+    --muted: rgba(17, 17, 17, 0.64);
+    --line: #111111;
+    --lavender: #9c9bff;
+    --pink: #e9a8f5;
+    --orange: #f5b84a;
+    --green: #5ed56a;
+    --shadow: #111111;
+    --link: #3f3dcc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --surface: #1c1c24;
+      --ink: #f2f2f2;
+      --muted: rgba(242, 242, 242, 0.66);
+      --line: #f2f2f2;
+      --shadow: #f2f2f2;
+      --link: #b9b8ff;
+    }
+    header svg { background: #f2f2f2; border-radius: 18px; padding: 6px; width: 76px; height: 76px; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 72px; }
+  header { display: flex; align-items: center; gap: 18px; margin-bottom: 8px; }
+  header svg { flex: none; }
+  h1 { font-size: clamp(1.9rem, 6vw, 2.6rem); line-height: 1.1; font-weight: 800; margin: 0; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); margin: 6px 0 0; font-size: 0.95rem; }
+  h2 { font-size: 1.3rem; line-height: 1.25; font-weight: 800; margin: 2.6rem 0 0.6rem; }
+  h3 { font-size: 1.05rem; line-height: 1.3; font-weight: 800; margin: 1.6rem 0 0.5rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: 0.4rem; }
+  a { color: var(--link); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 3px solid var(--lavender); outline-offset: 3px; border-radius: 4px; }
+  .summary {
+    margin: 28px 0 8px;
+    padding: 20px 22px 8px;
+    background: var(--surface);
+    border: 2px solid var(--line);
+    border-radius: 24px;
+    box-shadow: 5px 5px 0 var(--shadow);
+  }
+  .summary h2 { margin: 0 0 0.6rem; font-size: 1.15rem; }
+  .summary ul { list-style: none; padding: 0; }
+  .summary li { position: relative; padding-left: 28px; }
+  .summary li::before {
+    content: "";
+    position: absolute; left: 0; top: 0.5em;
+    width: 14px; height: 14px;
+    border: 2px solid var(--line);
+    border-radius: 50%;
+    background: var(--green);
+  }
+  .perms { border: 2px solid var(--line); border-radius: 24px; margin: 0 0 1rem; overflow: hidden; }
+  .perms div { padding: 14px 18px; border-top: 2px solid var(--line); }
+  .perms div:first-child { border-top: 0; }
+  .perms dt { font-weight: 700; border-left: 6px solid var(--c, var(--lavender)); padding-left: 10px; }
+  .perms dd { margin: 2px 0 0; padding-left: 16px; color: var(--muted); }
+  .fill { background: #fff3b0; color: #111; padding: 0 4px; border-radius: 4px; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 2px solid var(--line); color: var(--muted); font-size: 0.92rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg width="64" height="64" viewBox="0 0 72 72" role="img" aria-label="Tickly logo">
+      <g transform="rotate(-8 36 36)">
+        <rect x="14" y="14" width="44" height="44" rx="12" fill="#111111" transform="translate(3 3)"/>
+        <rect x="14" y="14" width="44" height="44" rx="12" fill="#e9a8f5" stroke="#111111" stroke-width="3"/>
+        <path d="M26 37l8 8 14-17" fill="none" stroke="#111111" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M26 37l8 8 14-17" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <circle cx="14" cy="15" r="6" fill="#f5b84a" stroke="#111111" stroke-width="2.5"/>
+      <circle cx="58" cy="57" r="6" fill="#5ed56a" stroke="#111111" stroke-width="2.5"/>
+    </svg>
+    <div>
+      <h1>Tickly Privacy Policy</h1>
+      <p class="meta">Effective November 4, 2026. Applies to the Tickly app for Android.</p>
+    </div>
+  </header>
+
+  <section class="summary" aria-labelledby="in-short">
+    <h2 id="in-short">In short</h2>
+    <ul>
+      <li>Your tasks, notes and settings stay on your phone. We never receive them.</li>
+      <li>Tickly shows ads from Google AdMob and Unity Ads. To show and measure ads, they may collect device information such as your advertising ID.</li>
+      <li>You don't need an account, and you can turn off personalized ads at any time.</li>
+    </ul>
+  </section>
+
+  <h2>About this policy</h2>
+  <p>Tickly is a free to-do list app that helps you plan tasks, set reminders and track your progress. This policy explains what happens to your information when you use it. In short: what you write in Tickly stays on your phone, and the only information that leaves it is what our advertising partners need to show ads.</p>
+
+  <h2>Information stored on your device</h2>
+  <p>To work, Tickly saves the following on your phone:</p>
+  <ul>
+    <li>Your tasks: titles, notes, subtasks, due dates and times, priority, status and repeat settings.</li>
+    <li>The lists and labels you create.</li>
+    <li>Your reminder settings and app settings, such as theme, sound, sort order and the first day of the week.</li>
+  </ul>
+  <p>This information is kept in Tickly's private storage, which other apps can't read. The developer never receives it, and Tickly never sends it to advertising partners or anyone else.</p>
+
+  <h2>Information we collect</h2>
+  <p>We, the developer of Tickly, don't collect your name, email address, phone number, location, contacts, photos, camera or microphone data or files. There are no accounts and no sign-in. We don't receive your personal data from our advertising partners either. We only see summary reports, such as how many ads were shown.</p>
+
+  <h2>Permissions and why Tickly uses them</h2>
+  <dl class="perms">
+    <div style="--c: var(--lavender)"><dt>Notifications</dt><dd>Shows your task reminders and the optional upcoming reminder in the status bar.</dd></div>
+    <div style="--c: var(--pink)"><dt>Exact alarms</dt><dd>Lets a reminder arrive at the exact time you set.</dd></div>
+    <div style="--c: var(--orange)"><dt>Run at startup</dt><dd>Restores your reminders after the phone restarts.</dd></div>
+    <div style="--c: var(--green)"><dt>Vibration</dt><dd>Vibrates the phone when a reminder arrives.</dd></div>
+    <div style="--c: var(--lavender)"><dt>Internet access</dt><dd>Loads ads from our advertising partners. Task features work without a connection.</dd></div>
+    <div style="--c: var(--pink)"><dt>Network state</dt><dd>Checks whether the phone is online before an ad is requested.</dd></div>
+    <div style="--c: var(--orange)"><dt>Advertising ID</dt><dd>Lets our advertising partners read your Android advertising ID to show and measure ads. You can reset or delete it in your phone's settings.</dd></div>
+  </dl>
+  <p>Android and the libraries Tickly uses may add standard background-scheduling permissions, for example to keep the phone awake for a moment to deliver a reminder. They only support reminders and don't give Tickly access to your personal data. You can turn any permission off in your phone's settings, but the related feature will then stop working.</p>
+
+  <h2>Advertising</h2>
+  <p>Tickly shows ads from two advertising partners: Google AdMob (Google LLC) and Unity Ads (Unity Technologies). When an ad is requested, these partners receive certain information from your phone. They may use it to show ads, make them more relevant, measure how they perform, prevent fraud and improve their services.</p>
+  <p>This information may include:</p>
+  <ul>
+    <li>Your advertising ID, app set ID and similar device identifiers.</li>
+    <li>Your IP address, which can be used to estimate your general location.</li>
+    <li>Device and software details, such as the phone model, Android version, language and screen size.</li>
+    <li>Ad activity, such as ads that were shown, tapped or watched.</li>
+    <li>Performance and diagnostic data from the ad service, such as app start time and crashes.</li>
+  </ul>
+  <p>Tickly never gives these partners your tasks, notes, lists, labels or any other content you create. Each partner handles the information it collects under its own privacy policy:</p>
+  <ul>
+    <li>Google AdMob: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    <li>Unity Ads: the <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a> and the <a href="https://unity.com/legal/game-player-and-app-user-privacy-faq">Game Player and App User Privacy FAQ</a>.</li>
+  </ul>
+
+  <h3>Your ad choices</h3>
+  <ul>
+    <li><strong>Phone settings:</strong> you can reset or delete your advertising ID, or opt out of personalized ads, in Android Settings (usually under Privacy, then Ads; the exact path differs by phone brand). You will still see ads, but they won't be personalized.</li>
+    <li><strong>Consent in Europe:</strong> if you are in the European Economic Area, the United Kingdom or Switzerland, Tickly asks for your consent before showing personalized ads. You can change your choice at any time using the Privacy choices option in Tickly's Settings, where it is available.</li>
+    <li><strong>Unity Ads:</strong> you can tap the Data Privacy icon shown in a Unity ad, or use Unity's <a href="https://unity.com/legal/do-not-sell-my-personal-information">opt-out page</a>, to opt out of personalized ads and to ask about your data.</li>
+  </ul>
+
+  <h2>Other third parties</h2>
+  <p>Some features hand off to other apps, and you stay in control of them:</p>
+  <ul>
+    <li><strong>Share:</strong> when you share a task or list, you choose the app that receives the text. That app's own privacy policy applies.</li>
+    <li><strong>Rate Tickly:</strong> opens the Tickly page on Google Play. Google's privacy policy applies there.</li>
+    <li><strong>Reminder sound:</strong> uses your phone's built-in sound picker.</li>
+  </ul>
+  <p>If you installed Tickly from Google Play, Google may give the developer anonymous, aggregated statistics, such as the number of installs or crash reports from people who chose to share diagnostics. This data doesn't identify you and is handled under Google's own privacy policy.</p>
+
+  <h2>Backups</h2>
+  <p>If you've turned on Android's backup feature, your phone may include Tickly's data in a backup to your Google account. This is controlled by your phone and Google, not by us. You can turn it off in your phone's settings.</p>
+
+  <h2>How long data is kept and how to delete it</h2>
+  <p>Your tasks and settings stay on your phone until you remove them. You can delete tasks, lists and labels inside Tickly. To remove everything at once, open your phone's Settings, go to Apps, choose Tickly, open Storage and select Clear data, or simply uninstall the app. We hold no copies of your tasks, so there is nothing to delete on our side. Information collected by our advertising partners is kept under their own policies, and you can use the links in the Advertising section to manage it.</p>
+
+  <h2>Children</h2>
+  <p>Tickly is a general-purpose tool and isn't directed at children under 13. We don't knowingly collect personal information from children, and we don't knowingly show personalized ads to them. If you believe a child has used Tickly, contact us and we will help.</p>
+
+  <h2>Your rights</h2>
+  <p>Laws such as the GDPR and the CCPA may give you rights to access, correct or delete your personal data, to withdraw consent, and to opt out of personalized advertising. Your tasks never leave your phone, so you control them directly inside the app. For information held by Google or Unity, you can use their tools and links in the Advertising section. Under some US state laws, an advertising partner's use of your advertising ID may count as "sharing" or "sale" of personal information, and the opt-out options above apply. If you have a question, contact us using the details below.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If Tickly's handling of information changes, for example if we add a new advertising partner, cloud backup or sync, we will update this page and its effective date before that version is released. The Privacy Policy screen in the app will show the same information.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy? Contact <span class="fill">[Zohaib khan ]</span> at <a href="mailto:your-email@e"><span class="fill">[zohaibkahn59@gmail.com ]</span></a>.</p>
+
+  <footer>Tickly for Android. Package name: com.tickly.app.</footer>
+</main>
+</body>
+</html>
